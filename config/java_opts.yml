@@ -16,4 +16,4 @@
 # JAVA_OPTS configuration
 ---
 from_environment: true
-java_opts: -Dmehuna.confdir=$STACKATO_FILESYSTEM/mehuna/conf -Dmehuna.logdir=/tmp/logs -Dmehuna.dbuser=\"`echo $VCAP_SERVICES | json mysql[0].credentials.user`\" -Dmehuna.dbpassword=\"`echo $VCAP_SERVICES | json mysql[0].credentials.password`\" -Dmehuna.dburl=jdbc:mysql://\"`echo $VCAP_SERVICES | json mysql[0].credentials.host`\":\"`echo $VCAP_SERVICES | json mysql[0].credentials.port`\"/\"`echo $VCAP_SERVICES | json mysql[0].credentials.name`\" -Dmehuna.dbclass=com.mysql.jdbc.Driver
+java_opts: 
