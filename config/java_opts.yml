@@ -16,4 +16,4 @@
 # JAVA_OPTS configuration
 ---
 from_environment: true
-java_opts: -Dmehuna.confdir=$mehuna_confdir -Dmehuna.logdir=$mehuna_logdir -Dmehuna.dbuser=$mehuna_dbuser -Dmehuna.dbpassword=$mehuna_dbpassword -Dmehuna.dburl=$mehuna_dburl -Dmehuna.dbclass=$mehuna_dbclass 
+java_opts: 
